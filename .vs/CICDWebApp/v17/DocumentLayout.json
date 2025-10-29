@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\CICDWebApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{479DD9AB-8E55-4FBF-AD18-FABEAE4A787E}|CICDWebApp\\CICDWebApp.csproj|c:\\users\\admin\\source\\repos\\cicdwebapp\\cicdwebapp\\cicdwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{479DD9AB-8E55-4FBF-AD18-FABEAE4A787E}|CICDWebApp\\CICDWebApp.csproj|solutionrelative:cicdwebapp\\cicdwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{479DD9AB-8E55-4FBF-AD18-FABEAE4A787E}|CICDWebApp\\CICDWebApp.csproj|c:\\users\\admin\\source\\repos\\cicdwebapp\\cicdwebapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{479DD9AB-8E55-4FBF-AD18-FABEAE4A787E}|CICDWebApp\\CICDWebApp.csproj|solutionrelative:cicdwebapp\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +27,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CICDWebApp",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CICDWebApp\\CICDWebApp\\CICDWebApp.csproj",
+              "RelativeDocumentMoniker": "CICDWebApp\\CICDWebApp.csproj",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CICDWebApp\\CICDWebApp\\CICDWebApp.csproj",
+              "RelativeToolTip": "CICDWebApp\\CICDWebApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-29T06:21:34.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CICDWebApp\\CICDWebApp\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "CICDWebApp\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CICDWebApp\\CICDWebApp\\Properties\\launchSettings.json",
+              "RelativeToolTip": "CICDWebApp\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-29T06:11:55.134Z",
+              "EditorCaption": ""
             }
           ]
         }
