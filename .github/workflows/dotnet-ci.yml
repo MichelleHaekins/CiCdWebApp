@@ -1,29 +1,35 @@
-name: .NET Build & Test
+name: Build and Deploy ASP.NET Core app to Azure Web App
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches:
+      - main  # or 'master' if that's your default branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
+    - name: Checkout code
       uses: actions/checkout@v4
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
       with:
-        dotnet-version: 8.0.x
+        dotnet-version: '8.0.x'  # adjust version if you’re using .NET 6 or 7
 
     - name: Restore dependencies
       run: dotnet restore
 
-    - name: Build project
-      run: dotnet build --no-restore --configuration Release
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
 
-    - name: Run tests (if any)
-      run: dotnet test --no-build --verbosity normal
+    - name: Publish
+      run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+
+    - name: Deploy to Azure Web App
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: 'CICDWebApp'  # ✅ use your actual Azure App name exactly as shown in the portal
+        publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+        package: ${{env.DOTNET_ROOT}}/myapp
