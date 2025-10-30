@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\CICDWebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{479DD9AB-8E55-4FBF-AD18-FABEAE4A787E}|CICDWebApp\\CICDWebApp.csproj|c:\\users\\admin\\source\\repos\\cicdwebapp\\cicdwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{479DD9AB-8E55-4FBF-AD18-FABEAE4A787E}|CICDWebApp\\CICDWebApp.csproj|solutionrelative:cicdwebapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{479DD9AB-8E55-4FBF-AD18-FABEAE4A787E}|CICDWebApp\\CICDWebApp.csproj|c:\\users\\admin\\source\\repos\\cicdwebapp\\cicdwebapp\\cicdwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{479DD9AB-8E55-4FBF-AD18-FABEAE4A787E}|CICDWebApp\\CICDWebApp.csproj|solutionrelative:cicdwebapp\\cicdwebapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -31,19 +35,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CICDWebApp",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CICDWebApp\\CICDWebApp\\Program.cs",
+              "RelativeDocumentMoniker": "CICDWebApp\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\CICDWebApp\\CICDWebApp\\Program.cs",
+              "RelativeToolTip": "CICDWebApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T06:28:45.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CICDWebApp.csproj",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CICDWebApp\\CICDWebApp\\CICDWebApp.csproj",
               "RelativeDocumentMoniker": "CICDWebApp\\CICDWebApp.csproj",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\CICDWebApp\\CICDWebApp\\CICDWebApp.csproj",
               "RelativeToolTip": "CICDWebApp\\CICDWebApp.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-10-29T06:21:34.958Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\CICDWebApp\\CICDWebApp\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "CICDWebApp\\Properties\\launchSettings.json",
@@ -51,8 +68,7 @@
               "RelativeToolTip": "CICDWebApp\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-29T06:11:55.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-29T06:11:55.134Z"
             }
           ]
         }
