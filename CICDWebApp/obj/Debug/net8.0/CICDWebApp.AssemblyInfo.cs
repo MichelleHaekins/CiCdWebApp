@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CICDWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f37e8f34678957aa14716ff46e4bac79fca16c0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d075466bbadfd0980a6b2cea85c691ce10af2e78")]
 [assembly: System.Reflection.AssemblyProductAttribute("CICDWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CICDWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
